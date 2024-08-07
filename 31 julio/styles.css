@@ -1,5 +1,106 @@
-article{
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+/*article{
     border: 3px crimson solid;
     padding: 3rem 8rem;
     margin: 2rem;
+}*/ 
+
+/*.primer {
+    line-height: 3rem;
+    color: rgb(79, 5, 147);
+}
+.tercero {
+    line-height: 3rem;
+    color: rgb(147, 81, 5);
+}
+#lista {
+    list-style: none;
+    font-size: .6;
+    color: rgb(15, 137, 137);
+    line-height: 1.4;
+}
+*/
+/* reticula*/
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+main {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 1rem;
+} 
+footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+/*estilos de menu de navegacion*/
+
+#logo {
+    width: 120px;
+}
+nav {
+    background-color: rgb(241, 210, 166);
+    padding: 1rem 3rem;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul a {
+    text-decoration: none;
+    padding: 2rem;
+    color: brown;
+}
+/*estilo footer*/
+
+footer{
+    background-color: rgb(37, 192, 192);
+    padding: 3rem;
+}
+
+/*estilos tipograficos*/
+h1 {
+    font-family: "Caveat", cursive;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 4rem;
+    line-height: 2rem;
+}
+.primero {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2;
+    line-height: 2rem;  
+}
+.tercero {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2;
+    line-height: 2rem;   
+}
+.segundo {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2;
+    line-height: 2rem;
+}
+figcaption {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 0.8rem;
+}
+/*estilos imagen*/
+#imagenprincipal {
+    width: 100%;
+    object-fit: cover;
 }
